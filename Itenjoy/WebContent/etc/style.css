@@ -1,0 +1,673 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Lato, arial, "Malgun Gothic", "맑은 고딕", 돋움, Dutum, sans-serif;
+	font-size: 13px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+footer {
+	margin-top: 50px;
+}
+
+select {
+	font-size: 12px; 
+}
+
+form {
+	font-size: 12px; 
+}
+
+/* common CSS */
+html,
+body {
+	margin: 0;
+  	padding: 0;
+	height: 100%;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	text-align: center;
+}
+article {
+	text-align: center;
+	padding-bottom: 250px;
+}
+footer {
+	width: 100%;
+	height: 233px;
+	margin-top: -233px;
+	position: absolute;
+		  bottom: 0;
+		  left: 0;
+}
+.subtitle {
+	font-size: 25px;
+	text-align: center;
+}
+.width {
+	width:1200px;
+	margin: 0 auto;
+}
+
+/* Top CSS */
+.header {
+	margin: 0 auto;
+}
+.header .topNavi {
+	width: 1270px;
+	height: 35px;
+	font-size: 13px;
+}
+.header .topNavi a {
+	text-decoration: none;
+	color: grey;
+}
+.logoAndFinder {
+	width: 1200px;
+	display: inline-table;
+}
+.logo {
+	float: left;
+	width: 250px;
+}
+.finder {
+	display: table-cell;
+	width: 236px;
+	height: 75px;
+	vertical-align: middle;
+}
+ .finder1 {
+ 	float: left;
+	margin-right: 0;
+}
+.finder2 {
+	float: left;
+	width: 30px;
+}
+.finder1 input {
+	width: 200px;
+	height: 30px;
+}
+.finder2 button {
+	border: 0px;
+	background-color: white;
+	cursor: pointer;
+	vertical-align: bottom;
+	padding: 0px;
+}
+.logo:hover {
+	opacity: 0.5;
+}
+.header .topNavi ul {
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+}
+.header .topNavi ul li {
+	display: inline-block;
+	margin: 0 7px;
+}
+.header .menuBar ul {
+	list-style: none;
+	background: #EAEAEA;
+	text-align: center;
+}
+.header .menuBar ul li {
+	display: inline-block;
+	margin-right: 40px;
+	padding: 15px;
+}
+.header .menuBar a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.header .menuBar a:visited {
+	text-decoration: none;
+	color: black;
+}
+.hover:hover {
+	opacity: 0.5;
+}
+.topNavi ul li a {
+	letter-spacing: 1px;
+}
+
+/* introList CSS */
+.contentBox {
+	width: 250px;
+	/* height: 350px; */
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+.contentBox:hover {
+	opacity: 0.5;
+}
+.title {
+	height: 50px;
+}
+.kind {
+	float: left;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.more a{
+	float: right;
+	text-decoration: none;
+	color: grey;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.more a:visited {
+	text-decoration: none;
+	color: grey;
+	font-size: 14px;
+}
+.clear {
+	clear: both;
+}
+
+.guide {
+	text-align: center;
+	margin: 20px 0;
+}
+.guide img {
+	margin: 0 5px;
+}
+
+/* loginForm CSS */
+.memberLogin {
+	border: 1px solid grey;
+	width: 660px;
+	height: 250px;
+	padding: 50px;
+	margin: 120px auto;
+}
+.memberLogin input {
+	width: 260px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.memberLogin [type="button"] {
+	width: 265px;
+	height: 45px;
+	background: black;
+	color: white;
+	margin-top: 10px;
+}
+.memberLogin [type="button"]:hover {
+	background: rgba(0,0,0,0.5);
+}
+.login {
+	width: 300px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.login2 {
+	width: 300px;
+	display: inline-block;
+	font-size: 13px;
+	border-left: 1px solid grey;
+	padding: 5px 0 5px 35px;
+
+}
+.login2 ul li {
+	margin-bottom: 5px;
+	text-align: left;
+}
+.login3 {
+	border: 1px solid grey;
+	padding: 5px;
+	text-align: center;
+	font-size: 13px;
+}
+.login3:hover {
+	background: rgba(0,0,0,0.1);
+}
+.login3 p {
+	text-align: center;
+}
+.memberLogin a {
+	text-decoration: none;
+	color: grey;
+}
+.memberLogin h3 {
+	text-align: left;
+}
+/* content CSS */
+.content1 {
+	width: 1000px;
+	margin: 30px auto;
+}
+.productImage {
+	display: inline-block;
+	widows: 450px;
+	height: 450px;
+	float: left;
+	margin-right: 150px;
+}
+.infoArea {
+	display: inline-block;
+	width: 300px;
+	float: left;
+}
+.infoArea .com_title {
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.infoArea hr {
+	margin: 1px 0 1px 0;
+	color: #EAEAEA;
+}
+.infoTable {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-align: left;
+	font-size: 12px;
+	border: 0px;
+}
+.infoTable td {
+	padding: 10px 0 10px 0;
+}
+.count {
+	margin-top: 20px;
+}
+.count label {
+	margin-right: 100px;
+}
+.count input {
+	width: 35px;
+	height: 20px;
+	padding: 5px;
+}
+.buyBtn {
+	width: 300px;
+	height: 50px;
+	background: black;
+	color: white;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.addCartBtn {
+	width: 300px;
+	height: 35px;
+	background: white;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.addCartBtn:hover {
+	opacity: 0.5;
+}
+.content2 {
+	clear: both;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+#price {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/* list CSS */
+.sortBy {
+	list-style: none;
+	display: inline-block;
+	margin-left: 845px;
+}
+.sortBy li {
+	display: inline-block;
+}
+.sortBy li:hover {
+	opacity: 0.5;
+}
+.sortBy a {
+	text-decoration: none;
+	color: grey;
+}
+.contentBox2 {
+	width: 250px;
+	height: 400px;
+	display: inline-block;
+	margin: 0 20px 0 20px;
+}
+.contentBox2:hover {
+	opacity: 0.5;
+}
+.function {
+	color: grey;
+}
+
+/* insertForm CSS */
+.joinTable {
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.joinTable td {
+	padding: 10px;
+}
+
+/* cartList CSS */
+.cartTable th, .cartTable td {
+	border-bottom: 1px solid #C7C7C7;
+	padding: 15px 0 14px 0;
+	text-align: center;
+	font-size: 12px;
+}
+.cartTable {
+	border-top: 1px solid #C7C7C7;
+	border-collapse: collapse;
+	font-weight: bold;
+}
+#cart tr:first-child {
+	background: #FBFAFA;
+}
+.cartTable input[type="button"] {
+	padding: 0 5px 0 5px;
+	margin-top: 5px;
+	width: 60px;
+	height: 24px;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.cartTable input[type="submit"] {
+	padding: 0 5px 0 5px;
+	margin-top: 5px;
+	width: 60px;
+	height: 24px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.cartTable input[type="button"]:hover {
+	opacity: 0.5;
+}
+.cartTable input[type="submit"]:hover {
+	opacity: 0.5;
+}
+.cartTable input[type="number"] {
+	width: 56px;
+}
+.emptyCart {
+	text-align: center;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 50px 0 50px 0;
+}
+.cartTable tfoot td {
+	text-align: right;
+}
+.btnLeft {
+	float: left;
+}
+
+.btnRight {
+	float: right;
+}
+
+.floatBtn {
+	height: 25px;
+	padding: 10px 2px;
+	margin-bottom: 40px;
+}
+
+.floatBtn input[type="button"] {
+	padding: 0 5px 0 5px;
+	height: 24px;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.floatBtn input[type="button"]:hover {
+	opacity: 0.5;
+}
+
+.buyBtns input[type="button"] {
+	padding: 0 10px 0 10px;
+	margin-top: 10px;
+	height: 35px;
+	width: 110px;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #666;
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.buyBtns input[type="button"]:hover {
+	opacity: 0.5;
+}
+
+#buy_All {
+	background: black;
+	color: white;
+}
+
+/* buyList 관련 CSS */
+.buyStep {
+	list-style: none;
+}
+
+.buyStep li {
+	display: inline-block;
+}
+.buyForm {
+	border-top: 1px solid #C7C7C7;
+	border-collapse: collapse;
+	font-weight: bold;
+}
+.buyForm  td {
+	border-bottom: 1px solid #C7C7C7;
+	padding: 15px 0 14px 0;
+	text-align: left;
+	font-size: 12px;
+}
+.buy_btn {
+	width: 300px;
+	height: 50px;
+	background: black;
+	color: white;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+/* boardList 관련 CSS */
+.board {
+	width: 1000px;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.board tr:nth-child(2n) { 
+	background-color: lightblue; 
+}
+.board a {
+	text-decoration: none;
+}
+.normal a:link {
+	color: grey;
+	font-size: 20px;
+	text-decoration: none;
+}
+.normal a:visited {
+	color: grey; 
+	font-size: 20px;
+}
+.accent a:link {
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+}
+.accent a:visited {
+	color: black;
+	font-size: 25px;
+}
+
+/* slider banner */
+.vui-slider {
+	position:relative;
+	overflow:hidden;
+	background:#999;
+}
+.vui-slider .vui-items {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+.vui-slider .vui-item {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.vui-slider .vui-item a,
+.vui-slider .vui-item img {
+	display:block;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.vui-slider .vui-buttons {
+	position:absolute;
+	z-index:5;
+	bottom:16px;
+	left:50%;
+	float:left;
+	display:inline;
+	filter:alpha(Opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;
+}
+.vui-slider .vui-button {
+	float:left;
+	display:inline;
+	overflow:hidden;
+	height:12px;
+	width:12px;
+	margin:0 10px;
+	padding:0;
+	border:none;
+	border-radius:6px;
+	background:#FFF;
+	cursor:pointer;
+}
+.vui-slider .vui-button-cur {
+	background-color:#C00;
+}
+.vui-slider .vui-transfer {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:3;
+}
+.vui-slider .vui-prev {
+	position:absolute;
+	top:50%;
+	left:0;
+	z-index:5;
+	width:60px;
+	height:150px;
+	margin-top:-75px;
+	border-radius:0 10px 10px 0;
+	background:url(prev.gif) no-repeat;
+	cursor:pointer;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity:0.3;
+	transition:0.5s ease;
+	-o-transition:0.5s ease;
+	-webkit-transition:0.5s ease;
+}
+.vui-slider .vui-next {
+	position:absolute;
+	top:50%;
+	right:0;
+	z-index:5;
+	width:60px;
+	height:150px;
+	margin-top:-75px;
+	border-radius:10px 0 0 10px;
+	background:url(next.gif) no-repeat;
+	cursor:pointer;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity:0.3;
+	transition:0.5s ease;
+	-o-transition:0.5s ease;
+	-webkit-transition:0.5s ease;
+}
+.vui-slider .vui-sidebutton-hover {
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity:0.4;
+	opacity:0.4;
+	background-color:#000;
+}
+/* joinForm 관련 CSS */
+.join_submit {
+    background: #333;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 5px 10px;
+    width: 100px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.join_submit:hover {
+	opacity: 0.5;
+}
+.join_button {
+	padding: 5px 10px;
+	width: 100px;
+	font-size: 12px;
+	border: 1px solid #e1e1e1;
+	color: #666666;
+	cursor: pointer;
+}
+.join_button:hover {
+	opacity: 0.5;
+}
+#address {
+	margin-bottom: 10px;
+}
